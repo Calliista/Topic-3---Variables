@@ -21,7 +21,7 @@ namespace Topic_3___Variables
             courseName = "computer science";
 
             gradYear = 2028;
-            radius = 5;
+            radius = Convert.ToInt32(Console.ReadLine());
             roomNumber = 29;
 
             pi = 3.14159;
