@@ -56,6 +56,7 @@ namespace Topic_3___Variables
             Console.WriteLine();
             Console.WriteLine($"My name is {myName} and I'll graduate in {gradYear}");
             Console.WriteLine();
+            Int32.TryParse(Console.ReadLine(), out radius);
             Console.WriteLine($"The area of a circle with the radius of {radius} is" + (pi * (radius * radius)));
         }
     }
